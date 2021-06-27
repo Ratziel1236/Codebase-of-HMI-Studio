@@ -152,7 +152,7 @@ il ll query(int i,int l,int r,int lt,int rt)
 	pushup(i);
 	return s;
 }
-signed main()
+int main()
 {
 	n=rd();for(int i=1;i<=n;++i)a[i]=rd(),maxa=umax(a[i],maxa);
 	rt=newp();
